@@ -1,0 +1,6 @@
+# ignore out directory
+/out/*
+# ignore project setting
+/LeetCode.iml
+# ignore idea
+/.idea/*
