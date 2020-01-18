@@ -10,8 +10,13 @@ public class Main {
 
         RemoveDuplicatesFromSortedArray26 rd26 = new RemoveDuplicatesFromSortedArray26();
         int[] nums26 = new int[] {2, 2, 2, 3};
-        int result26 = rd26.removeDuplicates(nums26);
+        int result26 = rd26.removeDuplicates26(nums26);
         System.out.println("Problem 26 Remove Duplicates from Sorted Array: " + result26);
+
+        RemoveDuplicates80 rd80 = new RemoveDuplicates80();
+        int[] nums80 = new int[] {1, 2, 2, 3, 4, 5};
+        int result80 = rd80.removeDuplicates80(nums80);
+        System.out.println("Problem 80 Remove Duplicates from Sorted Array 2: " + result80);
 
     }
 
