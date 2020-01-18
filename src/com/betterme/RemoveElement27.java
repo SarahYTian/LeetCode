@@ -13,7 +13,7 @@ public class RemoveElement27 {
         return j;
     }
 
-    // Method 2 Optimization, traverses the array, if find one to remove, swap with the last and tune the length.
+    // Method 2 Is better when removed elements are only few, traverses the array, if find one to remove, swap with the last and tune the length.
     // Note not to hurry in moving forward pointer, as the last element can also be removed.
     public int removeElement2(int[] nums, int val) {
         int i = 0;
